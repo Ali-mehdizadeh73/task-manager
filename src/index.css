@@ -73,9 +73,7 @@
 }
 
 button {
-  width: 4rem;
   border: none;
-  padding: 5px 10px;
   border-radius: pointer;
 }
 
@@ -89,11 +87,14 @@ button.dark {
   color: white;
 }
 
-.custom-btn {
-  border-radius: 10rem;
-  width: 4rem;
-}
 
 .svg-icon {
   margin: 0 auto;
+}
+
+.light-dark-btn {
+  background: yellow;
+}
+.custom-btn {
+  border-radius: 50%;
 }
