@@ -43,7 +43,7 @@ class App extends Component {
       <div className="w-full max-w-xl px-6">
         <button
           onClick={this.toggleDarkMode}
-          className={`mb-4 px-3 py-1 text-sm w-20 ${isDarkMode ? "dark" : "light"}`}
+          className={`custom-btn mb-4 px-3 py-1 text-sm w-20 ${isDarkMode ? "dark" : "light"}`}
           >
           {isDarkMode ? "Light Mode" : "Dark Mode"}
         </button>

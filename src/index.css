@@ -7,11 +7,16 @@
     @apply bg-gradient-to-r from-slate-100 via-slate-200 to-slate-300 text-slate-800 font-sans;
   }
 
-  h1, h2, h3, h4, h5 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
     @apply font-extrabold text-slate-900;
   }
 
-  input, textarea {
+  input,
+  textarea {
     @apply outline-none focus:ring-2 focus:ring-indigo-500 rounded-md;
   }
 
@@ -68,6 +73,7 @@
 }
 
 button {
+  width: 4rem;
   border: none;
   padding: 5px 10px;
   border-radius: pointer;
@@ -82,6 +88,12 @@ button.dark {
   background-color: #6c757d;
   color: white;
 }
-.mb-4{
+
+.custom-btn {
   border-radius: 10rem;
+  width: 4rem;
+}
+
+.svg-icon {
+  margin: 0 auto;
 }
